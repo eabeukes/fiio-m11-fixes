@@ -1,0 +1,21 @@
+# Keys (public AOSP test key, but fetched, not committed)
+keys/
+
+# Your device's data. Never commit partition backups: efs holds per-unit data.
+/backup*/
+*.img
+*.uimg
+
+# Build output
+tools/backup/update-binary
+tools/backup/*.zip
+tools/root/out/
+tools/cacerts/aosp/
+tools/cacerts/device/
+tools/cacerts/module/system/
+tools/audio-fix/*.so
+tools/audio-fix/module/system/
+
+# Downloads
+*.apk
+*.zip

@@ -1,0 +1,6 @@
+id=m11-static-audiotrack
+name=M11 static AudioTrack fix
+version=1
+versionCode=1
+author=fiio-m11
+description=Overlays /system/lib64/libmedia.so with a 60-byte patch: static (MODE_STATIC) AudioTracks get frameCount = buffer size / frame size again instead of FiiO's latency-based value, which AudioFlinger rejects for small buffers. Fixes silent Apple Music (ExoPlayer keep-session track). Streaming tracks are unchanged.

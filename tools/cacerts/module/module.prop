@@ -1,0 +1,6 @@
+id=m11-cacerts
+name=M11 current root CAs
+version=aosp-main-20261102-r2
+versionCode=2026110202
+author=fiio-m11
+description=Replaces the system CA store with AOSP's current system/ca-certificates (149 roots): adds ISRG Root X1/X2, GTS, Amazon, Microsoft 2017 and others; drops expired and distrusted roots (WoSign, StartCom, CNNIC, Certinomis, Symantec).
